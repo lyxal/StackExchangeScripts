@@ -1665,7 +1665,7 @@ inject(livequery, bindas, expressions, function ($) {
          type: 'POST'
       }).then(function(result)
       {
-         return (result.match(/https?:\/\/i\.stack\.imgur\.com\/[a-zA-Z0-9]+\.png/)||[''])[0].replace(/^http:/, 'https:');
+         return (result.match(/https?:\/\/i\.sstatic\.net\/[a-zA-Z0-9]+\.png/)||[''])[0].replace(/^http:/, 'https:');
       });
    }
 });
